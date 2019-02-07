@@ -1,0 +1,6 @@
+.vs/
+*.user
+NCacheExample/%NCHOME%/
+NCacheExample/bin/
+NCacheExample/obj/
+packages/
