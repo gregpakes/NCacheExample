@@ -1,6 +1,6 @@
 # Example repository for Alachisoft to demonstrate bug https://github.com/Alachisoft/NCache/issues/35
 
-The example uses the WebActivatorEx nuget package (22 million downloads) to run an application prestart event.  
+The example uses the **PreApplicationStartMethodAttribute** attribute to run an application prestart event (.Net 4.5+).  
 This is a good place to perform application initialization code.  If you attempt to initialize the NCache Cache here
 and are relying on the config files being in the root of the application, you will get an exception.
 
